@@ -9,25 +9,41 @@
     <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-    <h3>Oblicz miesięczną ratę</h3>
+    <header>
+        <img src="klawiatura.jpg" alt="kursy komputerowe">
+    </header>
 
-    <input type="checkbox" name="pole1" id="pole1" class="kontrolki">
-    <label for="pole1">Kurs React.js</label><br>
+    <nav>
+        <a href="index.html" class="a">Strona główna</a>
+        <a href="raty.html" class="a">Koszt rat</a>
+        <a href="https://moje-szkolenia.pl/" class="a">Nasz partner</a>
+    </nav>
 
-    <input type="checkbox" name="pole2" id="pole2" class="kontrolki">
-    <label for="pole2">Kurs JavaScript</label><br>
+    <main>
+        <h3>Oblicz miesięczną ratę</h3>
 
-    <label for="pole2">Liczba rat:</label>
-    <input type="number" name="raty" id="raty" class="kontrolki"><br>
+        <input type="checkbox" name="pole1" id="pole1" class="kontrolki">
+        <label for="pole1">Kurs React.js</label><br>
 
-    <select name="lista" id="lista" class="kontrolki">
-        <option value="Warszawa">Warszawa</option>
-        <option value="Katowice">Katowice</option>
-        <option value="Gdańsk">Gdańsk</option>
-    </select><br>
+        <input type="checkbox" name="pole2" id="pole2" class="kontrolki">
+        <label for="pole2">Kurs JavaScript</label><br>
 
-    <input type="submit" id="submit" name="submit" value="Oblicz" onclick="obliczRate()" class="kontrolki">
+        <label for="pole2">Liczba rat:</label>
+        <input type="number" name="raty" id="raty" class="kontrolki"><br>
 
-    <p id="wynik"></p>
+        <select name="lista" id="lista" class="kontrolki">
+            <option value="Warszawa">Warszawa</option>
+            <option value="Katowice">Katowice</option>
+            <option value="Gdańsk">Gdańsk</option>
+        </select><br>
+
+        <input type="submit" id="submit" name="submit" value="Oblicz" onclick="obliczRate()" class="kontrolki">
+
+        <p id="wynik">ㅤ</p>
+    </main>
+
+    <footer>
+        <p>Autor strony: 000000000</p>
+    </footer>
 </body>
 </html>
